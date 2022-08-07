@@ -11,7 +11,11 @@ const Footer = () => {
 			</div>
 
 			<div className="flex items-center space-x-2">
-				<a href="https://twitter.com/intent/tweet?text=Checkout%20musicode.vercel.app%20by%20@kumartul001%0A%0AMusic%20🎵%20to%20keep%20you%20on%20while%20coding%20💻">
+				<a
+					href="https://twitter.com/intent/tweet?text=Checkout%20musicode.vercel.app%20by%20@kumartul001%0A%0AMusic%20🎵%20to%20keep%20you%20on%20while%20coding%20💻"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
 					<div className="border transition-all duration-100 border-[#1a91da] hover:bg-[#0f84b4] px-3 py-2 capitalize rounded-md font-semibold flex items-center justify-center text-[#0f84b4] hover:text-white">
 						Share to Twitter
 						<svg
@@ -34,6 +38,7 @@ const Footer = () => {
 				<a
 					href="https://www.buymeacoffee.com/kumartul"
 					target="_blank"
+					rel="noreferrer noopener"
 				>
 					<img
 						src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
