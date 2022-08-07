@@ -21,18 +21,18 @@ const Header = () => {
 
 
 	return (
-		<header className="w-full bg-[#fafafa] flex items-center justify-between shadow-sm p-2">
+		<header className="w-full bg-[#fafafa] flex items-center justify-between shadow-sm p-2 dark:bg-[#1a1a1a]">
 
 			{/* Logo */}
 			<div>
-				<h1 className="font-bold text-md md:text-2xl lg:text-2xl text-gray-700">Musicode 🎵</h1>
+				<h1 className="font-bold text-md md:text-2xl lg:text-2xl text-gray-700 dark:text-gray-300">Musicode 🎵</h1>
 			</div>
 
 			<div className="flex items-center space-x-2">
 
 				{/* Twitter Card */}
 				<a href="https://www.twitter.com/kumartul001">
-					<div className="flex items-center border border-gray-300 rounded-md px-2 py-1 bg-white transition-all duration-250 hover:bg-gray-100">
+					<div className="flex items-center border border-gray-300 rounded-md px-2 py-1 bg-white transition-all duration-250 hover:bg-gray-100 dark:bg-black dark:border-gray-500">
 
 						{/* Atul Kumar's Photo */}
 						<div className="px-2">
@@ -46,7 +46,7 @@ const Header = () => {
 						</div>
 
 						<div className="flex flex-col">
-							<h2 className="font-bold text-gray-700">By Atul Kumar</h2>
+							<h2 className="font-bold text-gray-700 dark:text-gray-400">By Atul Kumar</h2>
 							<h3 className="text-blue-500 text-sm text-semibold flex items-center">
 								Follow on Twitter
 
@@ -73,7 +73,7 @@ const Header = () => {
 					href="https://www.github.com/kumartul"
 					className="hidden md:block lg:block"
 				>
-					<div className="flex items-center border border-gray-300 rounded-md px-2 py-1 bg-white transition-all duration-250 hover:bg-yellow-100">
+					<div className="flex items-center border border-gray-300 rounded-md px-2 py-1 bg-white transition-all duration-250 hover:bg-yellow-100 dark:bg-black dark:border-gray-500">
 
 						{/* GitHub Icon */}
 						<div className="px-2">
@@ -83,6 +83,7 @@ const Header = () => {
 								aria-hidden="true"
 								viewBox="0 0 16 16"
 								version="1.1"
+								className="dark:invert-[1]"
 							>
 								<path
 									fillRule="evenodd"
@@ -92,7 +93,7 @@ const Header = () => {
 						</div>
 
 						<div className="flex flex-col">
-							<h2 className="font-bold text-gray-700">Star on GitHub</h2>
+							<h2 className="font-bold text-gray-700 dark:text-gray-400">Star on GitHub</h2>
 							<h3 className="text-yellow-500 text-sm text-semibold flex items-center">
 								{stars} {stars === 1 ? 'star' : 'stars'} ⭐
 							</h3>
