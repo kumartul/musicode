@@ -11,7 +11,7 @@ const Home = () => {
 			<Head>
 				{/* Required meta tags */}
 				<meta charset="UTF-8" />
-				<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+				<meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 				<meta name="description" content="Music 🎵 to keep you on while coding 🧑‍💻" />
 				<meta name="keywords" content="coding, programming, music, songs, sound, audio, lofi, mood, battle, beach, birds, boat, books, campfire, chill, clock, drinking, dripping water, water, energy, war bgm, farm, fireworks, flute, footsteps, forest, grind, keyboard, leaves, mouse, polozhenie, rain, retro, river, road, bhool bhulaiyaa title track, rocket, snow, storm, thunder, train, victory, wildcard, ed sheeran, ed, sheeran, shape of you, shape, of, you, atul, kumar, atul kumar, kumartul" />
