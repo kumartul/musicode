@@ -46,7 +46,7 @@ const Card = ({ title, Icon }) => {
 			}
 
 			<audio
-				src={`/sounds/${!title.includes(" ") ? title : `${title.slice(0, title.indexOf(" "))}_${title.slice((title.indexOf(" ") + 1))}`}.mp3`}
+				src={`/sounds/${!title.includes(" ") ? `${title[0].toLowerCase()}${title.slice(1)}` : `${title.slice(0, title.indexOf(" "))}_${title.slice((title.indexOf(" ") + 1))}`}.mp3`}
 				controls
 				ref={audioRef}
 				loop
