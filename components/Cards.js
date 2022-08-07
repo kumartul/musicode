@@ -18,7 +18,8 @@ import { FaUmbrellaBeach } from 'react-icons/fa';
 import {
 	RiSailboatLine,
 	RiLeafLine,
-	RiRocketLine
+	RiRocketLine,
+	RiFootprintLine
 } from 'react-icons/ri';
 import {
 	BsBook,
@@ -36,12 +37,11 @@ import {
 	AiOutlineTrophy,
 	AiOutlineQuestion
 } from 'react-icons/ai';
-import {
-	IoFootstepsOutline,
-	IoTrainOutline
-} from 'react-icons/io';
 import { ImSigma } from 'react-icons/im';
-import { BiCloudRain } from 'react-icons/bi';
+import {
+	BiCloudRain,
+	BiTrain
+} from 'react-icons/bi';
 
 const Cards = () => {
 	return (
@@ -104,7 +104,7 @@ const Cards = () => {
 			/>
 			<Card
 				title="Footsteps"
-				Icon={IoFootstepsOutline}
+				Icon={RiFootprintLine}
 			/>
 			<Card
 				title="Forest"
@@ -164,7 +164,7 @@ const Cards = () => {
 			/>
 			<Card
 				title="Train"
-				Icon={IoTrainOutline}
+				Icon={BiTrain}
 			/>
 			<Card
 				title="Victory"
